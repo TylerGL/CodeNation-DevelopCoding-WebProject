@@ -13,10 +13,11 @@ h1,h3{
 body{ 
     box-sizing: border-box;
     padding:30px;
-    color: white;
     font-family: 'Hepta Slab', serif;
     background:url(img/background.jpg);
+    background-repeat: round;
 }
+
 .box{
     box-sizing: border-box;
     padding: 10px;
@@ -26,6 +27,7 @@ body{
     border-radius:20px;
     text-decoration: none;
 }
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -37,10 +39,25 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 #cnst{ 
-    width: 200px;
+    width: 250px;
     padding: 10px 30px 10px;
 }
+
 #aboutme {
     color:#d400db
+}
+
+#tpo,#tptw,#tpth,#tpf,#tpfv{
+    max-width:650px;
+    max-height:650px;
+}
+
+.containerthree{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px 10px 20px;
+    justify-content: space-around;
 }
