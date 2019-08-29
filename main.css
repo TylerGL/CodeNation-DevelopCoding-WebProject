@@ -13,9 +13,9 @@ h1,h3{
 body{ 
     box-sizing: border-box;
     padding:30px;
-    color: White;
+    color: white;
     font-family: 'Hepta Slab', serif;
-    background-color: Black;
+    background:url(img/background.jpg);
 }
 .box{
     box-sizing: border-box;
@@ -24,6 +24,7 @@ body{
     background-color: #d400db;
     width: 20%;
     border-radius:20px;
+    text-decoration: none;
 }
 .container{
     display: flex;
